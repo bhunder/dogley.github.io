@@ -1,0 +1,86 @@
+.heading{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	padding-top: 15px;
+	line-height: 1.2;
+	color: #1b425f;
+	margin-right: 60px;
+	
+}
+.heading:hover{
+	color: #fff;
+	/*font-size: 3.5rem;*/
+	transition: 0.3s ease;
+	animation: rubberBand;
+	animation-duration: 1.3s;
+	
+	
+
+}
+#title{
+	background-color: #6fa8dc;
+}
+#fluid{
+	padding: 3% 15%;
+	overflow: hidden;
+}
+.iphone6{
+	transform: rotate(15deg);
+	position: relative;
+	margin-bottom: -200px;
+	padding-top: 15px;
+	width: 19rem;
+}
+.iphone6:hover{
+	transform: rotate(0deg);
+	transition: 0.8s ;
+
+
+}
+.col-lg-6{
+	padding-bottom: 30px; 
+}
+#navbarSupportedContent{
+	padding-bottom: 10px;
+}
+em:hover{
+	font-size: 20px;
+	transition: 0.4s ease;
+}
+/*.links:hover{
+	height: 125px;
+	transition-duration: 3s ease;
+
+
+}*/
+.downloadbtn{
+	margin: 3% 5% 3% 0;
+}
+/*feature section*/
+#features{
+	padding: 7% 15%; 
+	text-align: center;
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+
+}
+p{
+	color: #8f8f8f;
+	font-weight: bold;
+
+}
+.target{
+	margin-bottom: 1rem;
+}
+.target:hover{
+		animation: pulse;
+	animation-duration: 0.9s;
+	
+
+}
+h3{
+	font-size: 3rem;
+	transition: 3s;
+}
